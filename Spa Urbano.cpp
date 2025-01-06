@@ -126,6 +126,7 @@ int main()
 		printf("\t1 - Registrar novo cliente\n");
 		printf("\t2 - Consultar clientes cadastrados\n");
 		printf("\t3 - Deletar clientes do cadastro\n\n");
+		printf("\t4 - Encerrar o sistema\n\n");
 		printf("Opção:"); //Final do menu
 		
 		
@@ -146,6 +147,11 @@ int main()
           
         case 3:
         deletar();
+        break;
+        
+        case 4:
+        printf("Obrigado, até a próxima!\n");
+        return 0;
         break;
           
         default:
